@@ -34,7 +34,7 @@
 
 	"menu_es_mission_xp_kills_bonus" : "Body Count Bonus",
 
-	"CRASH_NO_BEARDLIB" : "BEARDLIB NOT FOUND! If it seems like it's there, please redownload it manually. It happens."
+	"CRASH_NO_BEARDLIB" : "BEARDLIB NOT FOUND! If it seems like it's there, please redownload it manually. It happens.",
 
 
 
@@ -102,7 +102,7 @@
 	"menu_akimbo_machine_pistol" : "Akimbo Machine Pistol",
 	"menu_akimbo_revolver" : "Akimbo Revolver",
 
-	"bm_nl" : "$NL;"
+	"bm_nl" : "$NL;",
 
 	"bm_md_supp" : "Sound Suppression effect",
 	"bm_md_flash" : "Flash Hiding effect",
@@ -112,6 +112,9 @@
 
 	"bm_gadget_power_laser" : "Laser Power",
 	"bm_gadget_power_flashlight" : "Flashlight Power",
+
+	"bm_menu_extra" : "Extra",
+	"bm_menu_extra_plural" : "Sight Rails",
 
 	"bm_menu_extra2" : "Extra2",
 	"bm_menu_extra2_plural" : "Gadget Rails",
@@ -187,7 +190,7 @@
 	"bm_wp_upg_cal_40sw" : ".40 S&W Caliber Conversion",
 	"bm_wp_upg_cal_45acp" : ".45 ACP Caliber Conversion",
 	"bm_wp_upg_cal_45lc" : ".45 LC Caliber",
-	"bm_wp_upg_cal_556x45" : "5.56x45 Caliber Conversion"
+	"bm_wp_upg_cal_556x45" : "5.56x45 Caliber Conversion",
 	"bm_wp_upg_cal_50beo" : ".50 Beo Caliber Conversion",
 	"bm_wp_upg_cal_300blk" : ".300 BLK Caliber Conversion",
 	"bm_wp_upg_cal_762x39" : "7.62x39 Caliber Conversion",
@@ -198,7 +201,7 @@
 	"bm_wp_upg_cal_454csl" : ".454 CSL Caliber Conversion",
 	"bm_wp_upg_cal_410" : ".410 bore Caliber Conversion",
 	"bm_wp_upg_cal_12g" : "12 gauge Caliber Conversion",
-	"bm_wp_upg_cal_761x51" : "7.62x51 Caliber Conversion",
+	"bm_wp_upg_cal_762x51" : "7.62x51 Caliber Conversion",
 	"bm_wp_upg_cal_338lm" : ".338 LM Caliber Conversion",
 	"bm_wp_upg_a_custom" : "000 Buck Ammo",
 	"bm_wp_upg_a_custom_desc" : "Heavier pellets in lesser quantity.",
@@ -434,4 +437,85 @@
 	"bm_wp_m14_b_legend" : "Plush Phoenix Barrel",
 	"bm_wp_m14_body_legend" : "Plush Phoenix Exclusive Set",
 	"bm_wp_m14_body_legend_stock" : "Plush Phoenix Stock",
+
+	"bm_wp_legacy_gadgetrail" : "Legacy Gadget Rail",
+	"bm_wp_ppk_b_barrel_long" : "Long Barrel",
+	"bm_wp_shrew_gadgetrail" : "Shrew Gadget Rail",
+	"bm_wp_g26_bb_custom" : "Custom Barrel",
+	"bm_wp_m1911_gadgetrail" : "M1911 Gadget Rail",
+	"bm_wp_1911_bb_vented" : "Vented Barrel",
+	"bm_wp_1911_bb_long" : "Long Barrel",
+	"bm_wp_1911_bb_long_vented" : "Vented Long Barrel",
+	"bm_wp_sparrow_gadgetrail" : "Sparrow Gadget Rail",
+	"bm_wp_usp_gadgetrail" : "Gadget Rail",
+	"bm_wp_beretta_hm_modern" : "Hammer",
+	"bm_wp_usp_bb_expert" : "Expert Barrel",
+	"bm_wp_usp_bb_match" : "Match Barrel",
+	"bm_wp_usp_extra_match" : "Match Barrel Extension",
+	"bm_wp_usp_sl_match" : "Match Slide",
+	"bm_wp_g17_bb_standard" : "Standard Barrel",
+	"bm_wp_g18c_bb_standard" : "Standard Barrel",
+	"bm_wp_g22c_bb_vented" : "Vented Barrel",
+	"bm_wp_g22c_bb_long" : "Long Barrel",
+	"bm_wp_g22c_bb_long_vented" : "Vented Long Barrel",
+	"bm_wp_g22c_o_standard" : "Iron Sights",
+	"bm_wp_g22c_magwell" : "Magwell",
+	"bm_wp_beer_gadgetrail" : "Beer Gadget Rail",
+	"bm_wp_judge_g_modern" : "Modern Grip",
+	"bm_wp_2006m_gadgetrail" : "2006M Gadget Rail",
+	"bm_wp_judge_gadgetrail" : "Judge Gadget Rail",
+	"bm_wp_gadgets_pos_a_vg" : "Vertical Grip Gadget Position",
+	"bm_wp_tec9_sightrail" : "Sight Rail",
+	"bm_wp_cobray_sightrail" : "Cobray Sight Rail",
+
+	"bm_wp_hs2000_body_standard" : "HS2000 Body",
+	"bm_wp_m1911_b_hardballer" : "Hardballer Barrel",
+	"bm_wp_judge_g_standard" : "Standard Grip",
+	"bm_wp_chinchilla_g_standard" : "Standard Grip",
+	"bm_wp_korth_g_standard" : "Standard Grip",
+	"bm_wp_rsh12_g_standard" : "Standard Grip",
+	"bm_wp_baka_o_adapter" : "Optic Adapter",
+	"bm_wp_baka_fl_adapter" : "Foregrip Adapter",
+	"bm_wp_slap_b_standard" : "Compact Barrel",
+
+	"bm_wp_amcar_upper" : "AMCAR Upper Receiver",
+	"bm_wp_contraband_fg_standard" : "SG Foregrip",
+	"bm_wp_corgi_cos_strap" : "Union Sling",
+	"bm_wp_fps_ass_contraband_fg_standard" : "SG Foregrip",
+	"bm_wp_fps_snp_victor_b_standard" : "Standard Barrel",
+	"bm_wp_fps_snp_victor_fg_hera_covers" : "Celestial Foregrip Covers",
+	"bm_wp_fps_snp_victor_s_adapter" : "Stock Adapter",
+	"bm_wp_g3_fg_retro_plastic_sling" : "Retro Plastic Sling",
+	"bm_wp_g3_fg_retro_sling" : "Retro Sling",
+	"bm_wp_m14_body_ruger_rail2" : "B-Team Sight Rail",
+	"bm_wp_siltstone_ns_variation_a" : "Grom Muzzle Brake",
+	"bm_wp_victor_b_sbr" : "Short Barrel",
+	"bm_wp_victor_b_standard" : "Standard Barrel",
+	"bm_wp_victor_fg_hera" : "Celestial Foregrip",
+	"bm_wp_victor_fg_hera_covers" : "Celestial Foregrip Covers",
+	"bm_wp_victor_s_adapter" : "Stock Adapter",
+
+	"bm_wp_fal_fg_01" : "FAL Foregrip",
+	"bm_wp_galil_sightrail" : "Galil Sight Rail",
+	"bm_wp_hcar_sight" : "Hcar Iron Sights",
+	"bm_wp_o_pos_extra" : "Extra Sight Position",
+	"bm_wp_scout_o_sightrail" : "Scout Sight Rail",
+	"bm_wp_sko12_m_drum" : "Drum Magazine",
+
+	"bm_wp_desertfox_fg_long" : "Long Foregrip",
+	"bm_wp_lmg_hk21_sightrail" : "HK21 Sight Rail",
+	"bm_wp_m249_s_modern" : "Modern Stock",
+	"bm_wp_m60_rail" : "M60 Sight Rail",
+	"bm_wp_mg42_rail" : "MG42 Sight Rail",
+
+	"bm_wp_boot_o_adapter" : "Boot Optic Adapter",
+	"bm_wp_ksg_fg_short" : "KSG Short Foregrip",
+	"bm_wp_m590_sightrail" : "M590 Sight Rail",
+	"bm_wp_r870_sightrail" : "R870 Sight Rail",
+	"bm_wp_saiga_fg_octa" : "Saiga Octagonal Foregrip",
+	"bm_wp_sho_spas12_rail" : "SPAS-12 Sight Rail",
+	"bm_wp_sko12_s_adapter" : "Goliath Stock Adapter",
+	"bm_wp_striker_rail" : "Striker Sight Rail",
+	"bm_wp_ultima_b_kit" : "Triple Tech Barrel Kit",
+	"bm_wp_ultima_fg_kit" : "Triple Tech Foregrip Kit"
 }

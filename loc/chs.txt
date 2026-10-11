@@ -34,7 +34,7 @@
 
 	"menu_es_mission_xp_kills_bonus" : "击杀奖励",
 
-	"CRASH_NO_BEARDLIB" : "未找到BEARDLIB！如果看起来它已经存在，请手动重新下载。这种事时有发生。"
+	"CRASH_NO_BEARDLIB" : "未找到BEARDLIB！如果看起来它已经存在，请手动重新下载。这种事时有发生。",
 
 
 
@@ -102,7 +102,7 @@
 	"menu_akimbo_machine_pistol" : "双持冲锋手枪",
 	"menu_akimbo_revolver" : "双持左轮手枪",
 
-	"bm_nl" : "$NL;"
+	"bm_nl" : "$NL;",
 
 	"bm_md_supp" : "消音效果",
 	"bm_md_flash" : "消焰效果",
@@ -112,6 +112,9 @@
 
 	"bm_gadget_power_laser" : "激光强度",
 	"bm_gadget_power_flashlight" : "手电筒强度",
+
+	"bm_menu_extra" : "额外导轨",
+	"bm_menu_extra_plural" : "瞄准具导轨",
 
 	"bm_menu_extra2" : "额外导轨2",
 	"bm_menu_extra2_plural" : "配件导轨",
@@ -187,7 +190,7 @@
 	"bm_wp_upg_cal_40sw" : ".40 S&W口径转换",
 	"bm_wp_upg_cal_45acp" : ".45 ACP口径转换",
 	"bm_wp_upg_cal_45lc" : ".45 LC口径",
-	"bm_wp_upg_cal_556x45" : "5.56x45口径转换"
+	"bm_wp_upg_cal_556x45" : "5.56x45口径转换",
 	"bm_wp_upg_cal_50beo" : ".50 Beo口径转换",
 	"bm_wp_upg_cal_300blk" : ".300 BLK口径转换",
 	"bm_wp_upg_cal_762x39" : "7.62x39口径转换",
@@ -198,7 +201,7 @@
 	"bm_wp_upg_cal_454csl" : ".454 CSL口径转换",
 	"bm_wp_upg_cal_410" : ".410口径转换",
 	"bm_wp_upg_cal_12g" : "12号口径转换",
-	"bm_wp_upg_cal_761x51" : "7.62x51口径转换",
+	"bm_wp_upg_cal_762x51" : "7.62x51口径转换",
 	"bm_wp_upg_cal_338lm" : ".338 LM口径转换",
 	"bm_wp_upg_a_custom" : "000型猎鹿弹",
 	"bm_wp_upg_a_custom_desc" : "数量较少但更重的弹丸。",
@@ -434,4 +437,85 @@
 	"bm_wp_m14_b_legend" : "浴火凤凰枪管",
 	"bm_wp_m14_body_legend" : "浴火凤凰专属套装",
 	"bm_wp_m14_body_legend_stock" : "浴火凤凰枪托",
+
+	"bm_wp_legacy_gadgetrail" : "传统配件导轨",
+	"bm_wp_ppk_b_barrel_long" : "长枪管",
+	"bm_wp_shrew_gadgetrail" : "Shrew配件导轨",
+	"bm_wp_g26_bb_custom" : "定制枪管",
+	"bm_wp_m1911_gadgetrail" : "M1911配件导轨",
+	"bm_wp_1911_bb_vented" : "通风枪管",
+	"bm_wp_1911_bb_long" : "长枪管",
+	"bm_wp_1911_bb_long_vented" : "通风长枪管",
+	"bm_wp_sparrow_gadgetrail" : "Sparrow配件导轨",
+	"bm_wp_usp_gadgetrail" : "配件导轨",
+	"bm_wp_beretta_hm_modern" : "击锤",
+	"bm_wp_usp_bb_expert" : "专家枪管",
+	"bm_wp_usp_bb_match" : "竞赛枪管",
+	"bm_wp_usp_extra_match" : "竞赛枪管扩展",
+	"bm_wp_usp_sl_match" : "竞赛套筒",
+	"bm_wp_g17_bb_standard" : "标准枪管",
+	"bm_wp_g18c_bb_standard" : "标准枪管",
+	"bm_wp_g22c_bb_vented" : "通风枪管",
+	"bm_wp_g22c_bb_long" : "长枪管",
+	"bm_wp_g22c_bb_long_vented" : "通风长枪管",
+	"bm_wp_g22c_o_standard" : "机械瞄具",
+	"bm_wp_g22c_magwell" : "弹匣井",
+	"bm_wp_beer_gadgetrail" : "Beer配件导轨",
+	"bm_wp_judge_g_modern" : "现代握把",
+	"bm_wp_2006m_gadgetrail" : "2006M配件导轨",
+	"bm_wp_judge_gadgetrail" : "Judge配件导轨",
+	"bm_wp_gadgets_pos_a_vg" : "垂直握把配件位置",
+	"bm_wp_tec9_sightrail" : "瞄准镜导轨",
+	"bm_wp_cobray_sightrail" : "Cobray瞄准镜导轨",
+
+	"bm_wp_hs2000_body_standard" : "HS2000枪身",
+	"bm_wp_m1911_b_hardballer" : "硬汉枪管",
+	"bm_wp_judge_g_standard" : "标准握把",
+	"bm_wp_chinchilla_g_standard" : "标准握把",
+	"bm_wp_korth_g_standard" : "标准握把",
+	"bm_wp_rsh12_g_standard" : "标准握把",
+	"bm_wp_baka_o_adapter" : "瞄准镜适配器",
+	"bm_wp_baka_fl_adapter" : "前握把适配器",
+	"bm_wp_slap_b_standard" : "紧凑枪管",
+
+	"bm_wp_amcar_upper" : "AMCAR上机匣",
+	"bm_wp_contraband_fg_standard" : "SG前握把",
+	"bm_wp_corgi_cos_strap" : "Union枪带",
+	"bm_wp_fps_ass_contraband_fg_standard" : "SG前握把",
+	"bm_wp_fps_snp_victor_b_standard" : "标准枪管",
+	"bm_wp_fps_snp_victor_fg_hera_covers" : "天体护木盖片",
+	"bm_wp_fps_snp_victor_s_adapter" : "枪托适配器",
+	"bm_wp_g3_fg_retro_plastic_sling" : "复古塑料枪带",
+	"bm_wp_g3_fg_retro_sling" : "复古枪带",
+	"bm_wp_m14_body_ruger_rail2" : "B-Team瞄准镜导轨",
+	"bm_wp_siltstone_ns_variation_a" : "Grom制退器",
+	"bm_wp_victor_b_sbr" : "短枪管",
+	"bm_wp_victor_b_standard" : "标准枪管",
+	"bm_wp_victor_fg_hera" : "天体前握把",
+	"bm_wp_victor_fg_hera_covers" : "天体护木盖片",
+	"bm_wp_victor_s_adapter" : "枪托适配器",
+
+	"bm_wp_fal_fg_01" : "FAL前握把",
+	"bm_wp_galil_sightrail" : "Galil瞄准镜导轨",
+	"bm_wp_hcar_sight" : "Hcar机械瞄具",
+	"bm_wp_o_pos_extra" : "额外瞄准镜位置",
+	"bm_wp_scout_o_sightrail" : "Scout瞄准镜导轨",
+	"bm_wp_sko12_m_drum" : "弹鼓",
+
+	"bm_wp_desertfox_fg_long" : "长前握把",
+	"bm_wp_lmg_hk21_sightrail" : "HK21瞄准镜导轨",
+	"bm_wp_m249_s_modern" : "现代枪托",
+	"bm_wp_m60_rail" : "M60瞄准镜导轨",
+	"bm_wp_mg42_rail" : "MG42瞄准镜导轨",
+
+	"bm_wp_boot_o_adapter" : "Boot瞄准镜适配器",
+	"bm_wp_ksg_fg_short" : "KSG短前握把",
+	"bm_wp_m590_sightrail" : "M590瞄准镜导轨",
+	"bm_wp_r870_sightrail" : "R870瞄准镜导轨",
+	"bm_wp_saiga_fg_octa" : "Saiga八角前握把",
+	"bm_wp_sho_spas12_rail" : "SPAS-12瞄准镜导轨",
+	"bm_wp_sko12_s_adapter" : "Goliath枪托适配器",
+	"bm_wp_striker_rail" : "Striker瞄准镜导轨",
+	"bm_wp_ultima_b_kit" : "Triple Tech枪管套件",
+	"bm_wp_ultima_fg_kit" : "Triple Tech前握把套件"
 }
