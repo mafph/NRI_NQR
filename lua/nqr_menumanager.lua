@@ -1041,14 +1041,14 @@ end
 
 NQR:Load()
 
-Hooks:Add("LocalizationManagerPostInit", "LocalizationManagerPostInit_NQR", function( loc )
-	for i, k in pairs(file.GetFiles(NQR._loc_path)) do
-		if Idstring(k:match('^(.*).txt$') or ""):key()==SystemInfo:language():key() then
-			loc:load_localization_file(NQR._loc_path .. k)
-			break
-		end
+Hooks:Add("LocalizationManagerPostInit", "LocalizationManagerPostInit_NQR", function(loc)
+	local lang = BLT.Localization and BLT.Localization:get_language()
+	local code = (lang and lang.language) or (BLT.save_data and BLT.save_data.language) or "en"
+
+	loc:load_localization_file(NQR._loc_path .. code .. ".txt")
+	if code ~= "en" then
+		loc:load_localization_file(NQR._loc_path .. "en.txt", false)
 	end
-	loc:load_localization_file(NQR._loc_path .. "english.txt", false)
 end)
 
 Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_NQR", function( menu_manager )
